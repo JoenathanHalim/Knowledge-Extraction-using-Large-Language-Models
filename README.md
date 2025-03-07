@@ -1,1 +1,4 @@
 # Knowledge-Extraction-using-Large-Language-Models
+
+## Abstract
+This work aims to extract structural information from text documents using LLMs, guided by a well-defined schema derived from the given process ontology. An interesting challenge lies in determining the optimal trade-off between the size of the LLM (open-source or proprietary) and the cost of fine-tuning due to data collection. Although larger LLMs are generally expected to outperform smaller ones, a key question is whether smaller LLMs, with sufficient fine-tuning, will surpass the performance of their larger counterparts. Another interesting problem is the trade-off between single (extracting all information in a single query) and multiple queries (extracting only a few components in each query) to extract information from documents. 
