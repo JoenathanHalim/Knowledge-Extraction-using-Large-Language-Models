@@ -12,10 +12,10 @@ python finetuning.py  \
   --use_peft \
   --peft_method lora \
   --quantization \
-  --model_name 'meta-llama/Llama-2-70b-hf' \
-  --output_dir './my_lora_weights/doping_json' \
+  --model_name 'meta-llama/Llama-2-7b-chat-hf' \
+  --output_dir './my_lora_weights' \
   --batch_size_training 1 \
   --micro_batch_size 1 \
-  --num_epochs 7 \
-  --dataset dopingjson_dataset
+  --num_epochs 10 \
+  --dataset 
 ```
